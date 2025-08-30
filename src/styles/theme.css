@@ -1,0 +1,114 @@
+@theme {
+  --color-*: initial;
+
+  /* Background */
+  --color-bg-primary-dark: #36393f;
+  --color-bg-secondary-dark: #2f3136;
+  --color-bg-tertiary-dark: #40444b;
+  --color-bg-quaternary-dark: #484c52;
+  --color-bg-elevated-dark: #4f545c;
+
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary-light: #f2f3f5;
+  --color-bg-tertiary-light: #e3e5e8;
+  --color-bg-quaternary-light: #d4d7dc;
+  --color-bg-elevated-light: #ffffff;
+
+  --color-bg-floating: #18191c;
+  --color-bg-modal: rgba(0, 0, 0, 0.85);
+
+  /* Surface */
+  --color-surface-primary-dark: #40444b;
+  --color-surface-secondary-dark: #36393f;
+  --color-surface-tertiary-dark: #2f3136;
+  --color-surface-overlay-dark: #484c52;
+  --color-surface-interactive-dark: #4f545c;
+
+  --color-surface-primary-light: #ffffff;
+  --color-surface-secondary-light: #f8f9fa;
+  --color-surface-tertiary-light: #f2f3f5;
+  --color-surface-overlay-light: #e3e5e8;
+  --color-surface-interactive-light: #d4d7dc;
+
+  /* Border */
+  --color-border-primary-dark: #40444b;
+  --color-border-secondary-dark: #2f3136;
+  --color-border-tertiary-dark: #484c52;
+
+  --color-border-primary-light: #e3e5e8;
+  --color-border-secondary-light: #f2f3f5;
+  --color-border-tertiary-light: #d4d7dc;
+
+  --color-border-focus: #f97316;
+  --color-border-error: #ed4245;
+
+  /* Text */
+  --color-text-primary-dark: #ffffff;
+  --color-text-secondary-dark: #b9bbbe;
+  --color-text-tertiary-dark: #8e9297;
+  --color-text-quaternary-dark: #72767d;
+  --color-text-muted-dark: #4f5660;
+  --color-text-disabled-dark: #6a7480;
+
+  --color-text-primary-light: #2e3338;
+  --color-text-secondary-light: #4f5660;
+  --color-text-tertiary-light: #6a7480;
+  --color-text-quaternary-light: #8e9297;
+  --color-text-muted-light: #b9bbbe;
+  --color-text-disabled-light: #c7ccd1;
+
+  --color-text-link: #00b0f4;
+  --color-text-link-hover: #4fc3f7;
+
+  /* Status */
+  --color-status-online: #3ba55d;
+  --color-status-idle: #f9ca24;
+  --color-status-dnd: #ed4245;
+  --color-status-offline: #747f8d;
+  --color-status-invisible: #747f8d;
+
+  /* Brand Colors */
+  --color-brand-primary: #f97316;
+  --color-brand-primary-hover: #ea580c;
+  --color-brand-primary-active: #dc2626;
+  --color-brand-secondary: #fed7aa;
+  --color-brand-tertiary: #ffedd5;
+
+  /* Semantic Colors */
+  --color-success: #3ba55d;
+  --color-success-hover: #2d8a47;
+  --color-success-light: #dcf4e4;
+  --color-warning: #faa81a;
+  --color-warning-hover: #e69500;
+  --color-warning-light: #fef3cd;
+  --color-danger: #ed4245;
+  --color-danger-hover: #d63031;
+  --color-danger-light: #f8d7da;
+  --color-info: #00b0f4;
+  --color-info-hover: #0099d4;
+  --color-info-light: #cce7f0;
+
+  /* Interaction Colors */
+  --color-hover-primary: #40444b;
+  --color-hover-secondary: #484c52;
+  --color-active-primary: #4f545c;
+  --color-active-secondary: #5d6269;
+  --color-focus-ring: rgba(249, 115, 22, 0.4);
+  --color-selection: rgba(249, 115, 22, 0.2);
+
+  /* Chat Specific Colors */
+  --color-message-hover: rgba(4, 4, 5, 0.07);
+  --color-message-mention: rgba(249, 115, 22, 0.1);
+  --color-message-mention-border: #f97316;
+  --color-typing-indicator: #72767d;
+  --color-timestamp: #72767d;
+  --color-code-block: #2f3136;
+  --color-code-inline: #40444b;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.16);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.24);
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.32);
+  --shadow-modal: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
