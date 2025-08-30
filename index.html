@@ -7,6 +7,12 @@
     <link href="/src/index.css" rel="stylesheet" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-tsrouter-app" />
+    <script>
+      document.documentElement.classList.toggle(
+        'dark',
+        localStorage.theme === 'dark' || !('theme' in localStorage),
+      );
+    </script>
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <title>느좋 채팅 서비스 - Duck In</title>
