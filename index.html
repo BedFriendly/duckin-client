@@ -8,10 +8,11 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-tsrouter-app" />
     <script>
-      document.documentElement.classList.toggle(
-        'light',
-        localStorage.theme === 'light' || !('theme' in localStorage),
-      );
+      if (!('theme' in localStorage)) {
+        localStorage.theme = 'dark';
+      }
+
+      document.documentElement.classList.toggle('light', localStorage.theme === 'light');
     </script>
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
