@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(.light, .light *));
 
 @import './styles/font.css';
 @import './styles/theme.css';
