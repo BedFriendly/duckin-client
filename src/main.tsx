@@ -23,7 +23,12 @@ const indexRoute = createRoute({
   path: '/',
 });
 
-const routeTree = rootRoute.addChildren([indexRoute]);
+const loginRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/login',
+});
+
+const routeTree = rootRoute.addChildren([indexRoute, loginRoute]);
 
 const router = createRouter({
   routeTree,
