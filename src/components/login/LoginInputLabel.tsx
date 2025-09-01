@@ -8,7 +8,7 @@ type LoginInputLabelProps = {
 function LoginInputLabel({ children, name }: LoginInputLabelProps) {
   return (
     <label
-      className="text-text-primary-dark light:text-text-primary-light block text-xs"
+      className="text-text-primary-dark light:text-text-primary-light block px-2 text-xs"
       htmlFor={name}
     >
       {children}
