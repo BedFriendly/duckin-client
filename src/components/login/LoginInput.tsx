@@ -17,7 +17,7 @@ function LoginInput({ type, placeholder, name, value, onChange }: LoginInputProp
       value={value}
       required
       onChange={onChange}
-      className="bg-bg-primary-dark light:bg-bg-elevated-light text-text-primary-dark light:text-text-primary-light rounded p-2 text-sm"
+      className="bg-bg-primary-dark light:bg-bg-elevated-light text-text-primary-dark light:text-text-primary-light h-10 rounded p-2 text-sm"
     />
   );
 }
