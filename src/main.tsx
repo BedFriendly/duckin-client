@@ -9,6 +9,8 @@ import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 
+import LoginPage from '@/pages/login';
+
 const rootRoute = createRootRoute({
   component: () => (
     <>
@@ -26,6 +28,7 @@ const indexRoute = createRoute({
 const loginRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: '/login',
+  component: () => <LoginPage />,
 });
 
 const routeTree = rootRoute.addChildren([indexRoute, loginRoute]);
